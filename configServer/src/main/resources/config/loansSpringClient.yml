@@ -15,7 +15,7 @@ spring:
       ddl-auto: update
     show-sql: true
 loans:
-  message: welcome to default loans microservices
+  message: welcome to docker default loans microservices
   contactDetails: 
       name: jerry
       email: jerry@gmail.com
