@@ -1,5 +1,5 @@
 loans:
-  message: "Welcome to EazyBank loans prod related prod APIs"
+  message: "Welcome to EazyBank loans docker prod related prod APIs"
   contactDetails:
     name: "Pelias Sudhir - Product Owner"
     email: "pelias@eazybank.com"
