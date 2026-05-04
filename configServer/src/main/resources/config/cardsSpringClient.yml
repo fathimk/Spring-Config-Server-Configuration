@@ -11,8 +11,8 @@ spring:
 #      enabled: true
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
-#    hibernate:
-#      ddl-auto: update
+    hibernate:
+      ddl-auto: update
     show-sql: true
 cards:
   message: welcome to cards microservices
