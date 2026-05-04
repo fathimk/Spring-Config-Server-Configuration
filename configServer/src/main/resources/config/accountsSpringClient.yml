@@ -6,9 +6,12 @@ spring:
     driverClassName: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-  h2:
-    console:
-      enabled: true
+#    url: jdbc:h2:mem:testdb
+#    driverClassName: org.h2.Driver
+#    username: sa
+#  h2:
+#    console:
+#      enabled: true
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
 #    hibernate:
@@ -19,7 +22,7 @@ spring:
  
   
 accounts:
-    message: "welcome to RD bank"
+    message: "welcome to RD bank default.......****"
     contactDetails:
            name: "John Doe - Developer"
            email: "john@eazybank.com"
