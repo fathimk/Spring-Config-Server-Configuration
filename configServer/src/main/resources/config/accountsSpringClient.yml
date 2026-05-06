@@ -1,26 +1,26 @@
 #server:
 #  port: 8080
 spring:
-  datasource:
+ # datasource:
     #url: jdbc:mysql://localhost:3306/accountsdb?allowPublicKeyRetrieval=true&useSSL=false
     #driverClassName: com.mysql.cj.jdbc.Driver
     #username: root
     #password: root
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    username: sa
-    password: ''
-  h2:
-    console:
-      enabled: true
-  jpa:
+  #  url: jdbc:h2:mem:testdb
+ #   driverClassName: org.h2.Driver
+#    username: sa
+ #   password: ''
+ # h2:
+#    console:
+ #     enabled: true
+#  jpa:
     #database-platform: org.hibernate.dialect.MySQLDialect
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  build:
-    version:"1.0"
+  #  database-platform: org.hibernate.dialect.H2Dialect
+ #   hibernate:
+ #     ddl-auto: update
+ #   show-sql: true
+#  build:
+#    version:"1.0"
  
   
 accounts:
